@@ -9,6 +9,23 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
+        
+        {
+          name: "Mahika",
+          artist: "Adie",
+          cover: "Cover/mahika.jfif",
+          source: "Songs/mahika.mp3",
+          url: "https://www.youtube.com/watch?v=9tLglpFAyIg",
+          favorited: true
+        },
+        {
+          name: "All Songs of Arthur Nery",
+          artist: "Arthur Nery",
+          cover: "Cover/arthur.jfif",
+          source: "Songs/Arthur_Bundles.mp3",
+          url: "https://www.youtube.com/watch?v=q0pbzL2Zwio",
+          favorited: true
+        },
         {
           name: "Araw - Araw",
           artist: "Ben & Ben",
